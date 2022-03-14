@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background-image: url("assets/technology/background-technology-desktop.jpg");
+   background-size:cover;
+    background-repeat: no-repeat;
+overflow: hidden;
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.logo-img{
+    width:100px;
+    overflow: visible;
+    
+
+}
+.logo{
+    width: 100%;
+    border-radius: 100%;
+    margin-top: 45px;
+    margin-left: 50px;
+   
+}
+.rule{
+    width:50%;
+
+    margin-left:50px;
+}
+hr{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.404);
+    width: 100%;
+   margin-top:13%;
+   
+    margin-bottom: 10px;
+    display: inline-block;
+    
+
+}
+#menu{
+
+  backdrop-filter: blur(100px);
+     width: 1000px;
+    margin-top: 40px;
+    border:0;
+    padding-top: 30px;
+    text-align: center;
+    
+
+
+}
+
+#link{
+    padding: 60px 20px 35px 20px;
+    text-decoration: none;
+    color:#fff;
+    font-size: large;
+    word-spacing: 0.5rem;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#link:hover{
+    border-bottom:1px solid #fff;
+}
+.menucustom{
+    padding-top: 7%;
+    padding-left:10%;
+}
+.primary_heading{
+    box-sizing: border-box;
+}
+.primary_heading h1{
+  padding-left:120px;
+  padding-top: 100px;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+.primary_heading p{
+    color:rgba(165, 162, 162, 0.418);
+    font-weight: bold;
+    text-shadow:2px 0 2px rgba(165, 162, 162, 0.418);
+}
+.dot{
+    height:70px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+.para{
+    width:400px;
+    letter-spacing:1.5px;
+    font-size: 1rem;
+    word-spacing: 1px;
+
+}
+.info{
+    padding-top: 100px;
+}
+.main-heading h1{
+    font-family: "EBGaramond";
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.img{
+    margin-top: -5%;
+    
+    
+}
+.img img{
+    width:90%;
+    padding-right: 0;
+    margin-right: 0;
+}
+.dot h1{
+    padding-left:25px;
+    padding-top: 7px;
+    
+}
+#num{
+    text-decoration: none;
+    font-family: "EBGaramond";
+    color:#fff
+}
+#num:hover,.active,.dot:hover{
+    color:black;
+    background-color: #fff;
+    
+}

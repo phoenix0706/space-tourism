@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.content{
+    margin: 0;
+}
+body{
+    background-image: url("assets/destination/background-destination-desktop.jpg");
+   background-size:cover;
+    background-repeat: no-repeat;
+overflow: hidden;
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+}
+.row{
+    margin-right: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.logo-img{
+    width:100px;
+    overflow: visible;
+
+}
+.logo{
+    width: 100%;
+    border-radius: 100%;
+    margin-top: 45px;
+    margin-left: 50px;
+   
+}
+.rule{
+    width:50%;
+
+    margin-left:50px;
+}
+hr{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.404);
+    width: 100%;
+   margin-top:13%;
+   
+    margin-bottom: 10px;
+    display: inline-block;
+    
+
+}
+#menu{
+
+  backdrop-filter: blur(100px);
+   
+  width: 1000px;
+    margin-top: 40px;
+    border:0;
+    padding-top: 30px;
+    
+
+text-align: center;
+    
+
+
+}
+
+#link{
+    padding: 60px 20px 35px 20px;
+    
+    
+  
+    text-decoration: none;
+    color:#fff;
+    font-size: large;
+    word-spacing: 0.5rem;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#link:hover{
+    border-bottom:1px solid #fff;
+}
+#link.second_menu{
+  padding-bottom:10px;
+}
+
+.heading{
+margin:5% 0 0 10%;
+text-transform: uppercase;
+letter-spacing: 3px;
+line-height: 1.5;
+}
+.imgdiv img{
+    width:70%;
+    padding-top: 7%;
+    padding-left:20%;
+}
+.rightsec{
+    text-align:left;
+}
+.details{
+    padding-left: 20px;
+}
+.details h1{
+    font-family: "EB-Garamond";
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+
+}
+.para{
+    width:400px;
+    word-spacing: 0.1rem;
+    letter-spacing:0.1rem;
+
+}
+.details hr{
+    width:70%;
+    margin-top:10%;
+}
+.footer{
+    text-transform: uppercase;
+}
+.rightsec{
+    padding-right: 0;
+    position: relative;
+}
+h4{
+    font-family: "EB-Garamond";
+    font-size: 2rem;
+     
+}
